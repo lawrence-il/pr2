@@ -1,0 +1,46 @@
+.carousel
+    padding: 81px 0px
+    &__inner
+        position: relative
+        width: 750px
+        margin: 0 auto
+        img
+            margin: 0 auto
+    .prev, .next
+        position: absolute
+        border: none
+        background: #fff
+        top: 50%
+        transform: translateX(-50%)
+        left: -22px
+        outline-color: #fff
+        img
+            width: 31px
+            height: 50px
+    .next
+        left: auto
+        right: -70px
+    .tns-item
+        img
+            display: block
+            margin: 0 auto
+.tns-nav
+    display: flex
+    justify-content: center
+    position: absolute
+    transform: translateX(50%)
+    height: 50px
+    right: 50%
+    top: 100%
+.tns-nav > [aria-controls]
+    display: block
+    background: #C70101
+    margin-left: 5px
+    border: none
+    width: 20px
+    height: 20px
+    border-radius: 6px
+    transition-duration: 0.5s
+.tns-nav > .tns-nav-active
+    background: orange
+
